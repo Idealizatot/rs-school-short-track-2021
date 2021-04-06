@@ -15,7 +15,7 @@ function findIndex(array, value) {
   let a = 0;
   let b = array.length;
   let middleIndex;
-  while (true) {
+  while (a !== b) {
     middleIndex = Math.ceil((b + a) / 2);
     if (array[middleIndex] === value) {
       break;

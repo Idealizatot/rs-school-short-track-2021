@@ -22,7 +22,7 @@ function removeKFromList(l, k) {
   let prev = null;
   let current = p;
 
-  while (true) {
+  while (p.next) {
     if (current === null) {
       break;
     }
